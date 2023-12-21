@@ -27,9 +27,9 @@ app.post("/api/pagar", async(req, res) => {
 let preference = {
   items: [],
   back_urls: {
-    success: "https://luciotienda.herokuapp.com/feedback",
-    failure: "https://luciotienda.herokuapp.com/feedback",
-    pending: "https://luciotienda.herokuapp.com/feedback",
+    success: "https://tiendadeprueba.onrender.com/",
+    failure: "https://tiendadeprueba.onrender.com/",
+    pending: "https://tiendadeprueba.onrender.com/",
   },
   auto_return: "approved",
 };
